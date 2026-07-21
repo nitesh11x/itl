@@ -1,11 +1,36 @@
 @import "tailwindcss";
 
+.hero-bg {
+  background:
+    radial-gradient(circle at 20% 80%, #0057ff55 0%, transparent 40%),
+    radial-gradient(circle at 80% 20%, #00c85340 0%, transparent 40%),
+    radial-gradient(circle at 90% 80%, #0099ff35 0%, transparent 35%),
+    #070707;
+}
+.drives-bg {
+  background:
+    radial-gradient(circle at 80% 20%, #0057ff55 0%, transparent 40%),
+    radial-gradient(circle at 20% 80%, #00c85340 0%, transparent 40%),
+    radial-gradient(circle at 10% 20%, #0099ff35 0%, transparent 35%),
+    #070707;
+}
+.page-bg {
+  background:
+    radial-gradient(circle at 18% 75%, rgba(0,120,255,.28), transparent 28%),
+    radial-gradient(circle at 55% 45%, rgba(0,170,70,.35), transparent 38%),
+    radial-gradient(circle at 95% 25%, rgba(0,120,255,.30), transparent 28%),
+    radial-gradient(circle at 90% 85%, rgba(0,180,255,.18), transparent 25%),
+    #070707;
+
+  background-attachment: fixed;
+}
 
 body {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
 /* 
 
 :root {
