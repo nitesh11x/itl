@@ -2,22 +2,20 @@ import { ArrowUpRight } from "lucide-react";
 
 const Founder = () => {
   return (
-    <section className="relative overflow-hidden">
-      {/* Background Gradient - Removed */}
+    <section className="relative hero-gradient text-white overflow-hidden">
       <div className="absolute inset-0">
-        {/* Removed all background gradient divs */}
       </div>
 
       <div className="relative z-10 grid grid-cols-1 lg:grid-cols-2">
         {/* Left Top */}
-        <div className="border-b lg:border-r border-[#070707]/10 px-5 sm:px-8 lg:px-16 py-14 sm:py-20 lg:py-28">
-          <div className="flex items-center gap-3 uppercase tracking-wider text-xs sm:text-sm font-semibold text-[#070707]">
-            <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 bg-[#070707]" />
+        <div className="border-b lg:border-r border-gray-700 px-5 sm:px-8 lg:px-16 py-14 sm:py-20 lg:py-28">
+          <div className="flex items-center gap-3 uppercase tracking-wider text-xs sm:text-sm font-semibold text-white">
+            <div className="w-2.5 h-2.5 sm:w-3 sm:h-3 text-white" />
             Meet Our Founder
           </div>
 
           <h2
-            className="mt-6 sm:mt-8 lg:mt-10 text-4xl sm:text-5xl lg:text-6xl text-[#070707] leading-tight"
+            className="mt-6 sm:mt-8 lg:mt-10 text-4xl sm:text-5xl lg:text-6xl  leading-tight"
             style={{ fontFamily: "Georgia, serif" }}
           >
             Leslie Martinich
@@ -25,7 +23,7 @@ const Founder = () => {
         </div>
 
         {/* Right Top Image */}
-        <div className="border-b border-[#070707]/10">
+        <div className="border-b border-gray-700">
           <img
             src="/women.png"
             alt="Founder"
@@ -34,8 +32,8 @@ const Founder = () => {
         </div>
 
         {/* Left Bottom */}
-        <div className="border-b lg:border-b-0 lg:border-r border-[#070707]/10 px-5 sm:px-8 lg:px-16 py-12 sm:py-16 lg:py-20">
-          <div className="max-w-lg space-y-6 sm:space-y-8 text-[#070707]/80 text-base sm:text-lg lg:text-[20px] leading-relaxed">
+        <div className="border-b lg:border-b-0 lg:border-r border-gray-700 px-5 sm:px-8 lg:px-16 py-12 sm:py-16 lg:py-20">
+          <div className="max-w-lg space-y-6 sm:space-y-8 sm:text-lg lg:text-[20px] leading-relaxed">
             <p>
               Leslie Martinich is a leadership expert with 20+ years of
               experience who founded the Institute of Trusted Leadership to
@@ -53,7 +51,7 @@ const Founder = () => {
         {/* Right Bottom */}
         <div className="flex items-center lg:items-start justify-center lg:justify-start px-5 sm:px-8 lg:px-16 py-12 sm:py-16 lg:py-20">
           <button
-            className="group flex items-center gap-3 text-[#070707] transition"
+            className="group flex items-center gap-3 transition"
             style={{ fontFamily: "Georgia, serif" }}
           >
             <span className="text-3xl sm:text-4xl lg:text-6xl">
