@@ -21,15 +21,14 @@ const pathways = [
 
 const Ground = () => {
   return (
-    <section className="relative overflow-hidden bg-[#030d1a] py-16 sm:py-20 lg:py-24 text-white min-h-screen flex items-center justify-center">
+    <section className="relative overflow-hidden  py-16 sm:py-20 lg:py-24 text-white min-h-screen flex items-center justify-center">
       {/* Background Lighting/Glows */}
-      <div className="absolute inset-0 pointer-events-none">
+      {/* <div className="absolute inset-0 pointer-events-none">
         <div className="absolute -left-20 bottom-0 h-[500px] w-[500px] rounded-full bg-blue-7000 blur-[160px]" />
         <div className="absolute right-0 bottom-0 h-[450px] w-[450px] rounded-full bg-emerald-600/20 blur-[160px]" />
-      </div>
+      </div> */}
 
       <div className="relative z-10 mx-auto max-w-7xl px-4 sm:px-8 w-full">
-        {/* Section Header */}
         <div className="mx-auto max-w-4xl text-center mb-12 sm:mb-16">
           <div className="mb-4 flex justify-center items-center gap-2 text-xs uppercase tracking-widest text-gray-300 font-medium">
             <span className="h-2 w-2 bg-white inline-block"></span>
@@ -53,19 +52,15 @@ const Ground = () => {
           </p>
         </div>
 
-        {/* Cards Container */}
         <div className="grid gap-6 grid-cols-1 lg:grid-cols-12 items-stretch">
-          
-          {/* Main Featured Card (LUCA) */}
+
           <div className="lg:col-span-6 flex flex-col justify-between overflow-hidden rounded-2xl bg-[#081525] border border-blue-500/20 shadow-2xl relative p-6 sm:p-8">
             <div>
-              {/* Top Tag Pill */}
               <div className="inline-flex items-center gap-2 bg-[#0e3b6e] px-3 py-1.5 rounded-md text-[11px] font-semibold tracking-wider text-blue-100 uppercase mb-6">
                 <span className="h-2 w-2 bg-white inline-block"></span>
                 OPEN TO ALL
               </div>
 
-              {/* Embedded Banner/Image Box */}
               <div className="overflow-hidden rounded-xl border border-blue-400/20 shadow-lg mb-8">
                 <img
                   src="/luca.png"
@@ -74,7 +69,6 @@ const Ground = () => {
                 />
               </div>
 
-              {/* Card Title & Link Icon */}
               <div className="flex items-start justify-between gap-4">
                 <div>
                   <h3
@@ -100,7 +94,6 @@ const Ground = () => {
             </div>
           </div>
 
-          {/* Vertical Pathway Cards */}
           <div className="lg:col-span-6 grid grid-cols-1 sm:grid-cols-3 gap-5">
             {pathways.map((item) => (
               <div
@@ -113,9 +106,7 @@ const Ground = () => {
                   <span className="leading-tight">{item.tag}</span>
                 </div>
 
-                {/* Vertical Text Area */}
-                <div className="flex-1 flex items-center justify-center p-6 sm:py-10">
-                  {/* Desktop Vertical / Mobile Horizontal Layout */}
+                <div className="flex-1 flex items-end justify-center p-6 sm:py-10">
                   <div className="flex flex-col lg:[writing-mode:vertical-rl] lg:rotate-180 items-start justify-center gap-2 lg:gap-3 text-left">
                     <h3
                       className="text-2xl sm:text-3xl lg:text-[28px] font-serif text-white tracking-wide leading-tight"
@@ -123,7 +114,7 @@ const Ground = () => {
                     >
                       {item.title}
                     </h3>
-                    <p className="text-sm lg:text-base text-gray-300 font-light">
+                    <p className="text-sm lg:text-base text-white font-light">
                       {item.subtitle}
                     </p>
                   </div>

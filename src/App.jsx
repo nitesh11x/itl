@@ -18,12 +18,15 @@ const App = () => {
         <Drives />
       </div>
       <div className='hero-gradient-reverse'>
-      <Founder />
-      <Solution />
+        <Founder />
+        <Solution />
 
       </div>
-      <Methodology />
-      <Ground />
+      <div className='hero-gradient-custom'>
+
+        <Methodology />
+        <Ground />
+      </div>
     </>
   )
 }

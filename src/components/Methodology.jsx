@@ -29,16 +29,14 @@ const Methodology = () => {
   ];
 
   return (
-    <section className="relative overflow-hidden bg-[#050914] py-16 sm:py-20 lg:py-28 text-white min-h-screen flex items-center">
+    <section className="relative overflow-hidden  py-16 sm:py-20 lg:py-28 text-white min-h-screen flex items-center">
       {/* Background Radial Glow */}
-      <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -bottom-20 left-0 h-[500px] w-[500px] lg:h-[700px] lg:w-[700px] rounded-full bg-blue-600/30 blur-[130px]" />
-      </div>
+      {/* <div className="absolute inset-0 pointer-events-none">
+        <div className="absolute -bottom-20 left-0 h-125 w-125 lg:h-175 lg:w-[700px] rounded-full bg-blue-600/30 blur-[130px]" />
+      </div> */}
 
       <div className="relative z-10 mx-auto max-w-7xl px-6 sm:px-10 w-full">
-        {/* Header Section */}
         <div className="grid gap-8 lg:gap-16 lg:grid-cols-2 items-start mb-20 lg:mb-28">
-          {/* Left Header */}
           <div>
             <div className="mb-6 flex items-center gap-3 uppercase tracking-widest text-xs sm:text-sm text-gray-300 font-medium">
               <span className="h-2.5 w-2.5 bg-gray-200 inline-block"></span>
@@ -77,12 +75,10 @@ const Methodology = () => {
 
             return (
               <div key={index} className="flex items-start gap-5 lg:gap-6">
-                {/* Solid Black Vertical Bar */}
                 <div
-                  className={`${heights[index]} w-20 sm:w-24 lg:w-32 bg-black shrink-0 rounded-sm shadow-2xl shadow-black/80`}
+                  className={`${heights[index]} w-20 sm:w-24 lg:w-30 bg-black shrink-0 rounded-sm shadow-2xl shadow-black/80`}
                 />
 
-                {/* Content placed immediately to the right */}
                 <div className="pt-2">
                   <h3
                     className="mb-4 text-xl sm:text-2xl lg:text-3xl text-white font-serif leading-snug"

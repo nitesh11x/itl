@@ -48,7 +48,6 @@ const Founder = () => {
           </div>
         </div>
 
-        {/* Right Bottom */}
         <div className="flex items-center lg:items-start justify-center lg:justify-start px-5 sm:px-8 lg:px-16 py-12 sm:py-16 lg:py-20">
           <button
             className="group flex items-center gap-3 transition"
