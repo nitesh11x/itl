@@ -45,7 +45,7 @@ const Solution = () => {
             Why We Exist
           </h2>
 
-          <p className="mx-auto mt-6 sm:mt-8 max-w-4xl text-lg sm:text-xl lg:text-2xl leading-relaxed text-gray-700">
+          <p className="mx-auto mt-6 sm:mt-8 max-w-4xl text-lg sm:text-xl lg:text-2xl leading-relaxed text-gray-600">
             Trust transforms everything engagement, innovation, performance,
             &amp; culture. The Institute of Trusted Leadership scales this impact
             through research-backed methods, turning trusted leadership into
@@ -100,7 +100,7 @@ const Solution = () => {
                 </div>
 
                 {/* Vertical Line */}
-                <div className="mx-auto mt-8 sm:mt-10 h-24 sm:h-32 lg:h-44 w-[2px] bg-gradient-to-b from-white via-red to-transparent"></div>
+                <div className="mx-auto mt-8 sm:mt-1 h-24 sm:h-32 lg:h-36 w-[4px] bg-gradient-to-b from-gray-600 via-white to-transparent"></div>
               </div>
             ))}
           </div>

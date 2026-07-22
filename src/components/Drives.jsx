@@ -3,7 +3,7 @@ import { Eye, Target, Trophy, ArrowDown } from "lucide-react";
 
 const Drives = () => {
   return (
-    <section className="hero-gradient-reverse relative overflow-hidden py-16 sm:py-20 lg:py-24 text-white">
+    <section className="hero-gradient-reversse relative overflow-hidden py-16 sm:py-20 lg:py-24 text-white">
       <div className="relative z-10 max-w-7xl mx-auto px-5 sm:px-8">
 
         {/* Top Line / Divider */}

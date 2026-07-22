@@ -24,7 +24,7 @@ const Ground = () => {
     <section className="relative overflow-hidden bg-[#030d1a] py-16 sm:py-20 lg:py-24 text-white min-h-screen flex items-center justify-center">
       {/* Background Lighting/Glows */}
       <div className="absolute inset-0 pointer-events-none">
-        <div className="absolute -left-20 bottom-0 h-[500px] w-[500px] rounded-full bg-blue-700/20 blur-[160px]" />
+        <div className="absolute -left-20 bottom-0 h-[500px] w-[500px] rounded-full bg-blue-7000 blur-[160px]" />
         <div className="absolute right-0 bottom-0 h-[450px] w-[450px] rounded-full bg-emerald-600/20 blur-[160px]" />
       </div>
 

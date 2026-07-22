@@ -11,11 +11,17 @@ import Ground from './components/Ground'
 const App = () => {
   return (
     <>
+
       <Navbar />
-      <Hero />
-      <Drives />
+      <div className='hero-gradient'>
+        <Hero />
+        <Drives />
+      </div>
+      <div className='hero-gradient-reverse'>
       <Founder />
       <Solution />
+
+      </div>
       <Methodology />
       <Ground />
     </>
